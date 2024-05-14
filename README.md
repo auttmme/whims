@@ -31,3 +31,9 @@ npm run dev
 ```
 
 This will initiate the development serrver for the **whims** application.
+
+## Stack Used:
+- ReactJS: Provides reusable components and has strong community support.
+- Chakra UI: A fully customizable component library.
+- Axios: Simplifies syntax and automatically transforms JSON.
+- React Query: Simplifies data fetching and caching.
