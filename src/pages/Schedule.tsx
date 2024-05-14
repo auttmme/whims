@@ -26,8 +26,6 @@ function Schedules() {
 		queryFn: () => getEvents(page, 5),
 	});
 
-	console.log("data", data);
-
 	const handlePrev = () => {
 		if (page > 1) {
 			setPage((prevPage) => prevPage - 1);
@@ -118,7 +116,7 @@ function Schedules() {
 								mt={4}
 							>
 								{data?.map((item) => (
-									<>
+									<Stack key={item.id}>
 										<EventCard
 											id={item.id}
 											eventDescription={item.eventDescription}
@@ -130,7 +128,7 @@ function Schedules() {
 											key={item.id}
 										/>
 										<Divider />
-									</>
+									</Stack>
 								))}
 							</Flex>
 							<Flex justifyContent={"center"} gap={10} mb={4}>
