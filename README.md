@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# Whims
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run this application, please follow the instructions below:
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ensure that you have Node.js version 18.17 or later installed on your system.
 
-## Expanding the ESLint configuration
+## Clone Repository
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Begin by cloning this repository to your local machine. You can do this by executing the following command in your terminal:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```
+git clone https://github.com/auttmme/whims.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Installing Dependencies
+
+Next, install the project dependencies by running the following command in your terminal:
+
+```
+npm install
+```
+
+## Launching the whims Project
+
+Finally, start the **whims** project by executing the following command:
+
+```
+npm run dev
+```
+
+This will initiate the development serrver for the **whims** application.
