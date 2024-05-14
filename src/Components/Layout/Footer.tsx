@@ -4,7 +4,7 @@ function Footer() {
 	return (
 		<Box
 			position="relative"
-			background="url('/public/footer_bg.jpeg')"
+			background="url('/footer_bg.jpeg')"
 			backgroundPosition="center"
 			backgroundRepeat="no-repeat"
 			backgroundSize="cover"
@@ -21,9 +21,7 @@ function Footer() {
 				zIndex: 1,
 			}}
 		>
-			<Box position="relative" zIndex={2}>
-				Footer
-			</Box>
+			<Box position="relative" zIndex={2} />
 		</Box>
 	);
 }

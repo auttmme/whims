@@ -17,6 +17,7 @@ export interface EventProps {
 }
 
 export interface EventCardProps {
+	id: number;
 	eventName: string;
 	eventBannerImageUrl: string;
 	eventCity: string;
